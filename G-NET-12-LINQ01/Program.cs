@@ -98,6 +98,15 @@
             */
             #endregion
 
+            #region Q08
+            /*
+            var result = ProductList
+            .OrderBy(p => p.Category)
+            .ThenByDescending(p => p.UnitPrice);
+            */
+            #endregion
+
+
         }
     }
 }
