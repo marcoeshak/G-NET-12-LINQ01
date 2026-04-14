@@ -20,6 +20,19 @@
 
             #endregion
 
+            #region Q02
+            /*
+            var result = ProductList
+            .Select(p => p.ProductName);
+
+            foreach (var name in result)
+            {
+                Console.WriteLine(name);
+            }
+             */
+
+            #endregion
+
 
         }
     }
