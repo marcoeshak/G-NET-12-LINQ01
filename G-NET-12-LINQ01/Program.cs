@@ -136,6 +136,20 @@
 
             #endregion
 
+            #region Q11
+            /*
+            var result =
+             from c in Customers
+             from o in c.Orders
+             where o.OrderDate.Year >= 1997
+              select new
+                {
+                c.CustomerID,
+                o.OrderDate
+                };
+            */
+            #endregion
+
 
         }
     }
