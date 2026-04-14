@@ -106,6 +106,19 @@
             */
             #endregion
 
+            #region Q09
+            /*
+            var result = ProductList
+            .Where(p => p.Category == "Beverages")
+            .OrderByDescending(p => p.UnitsInStock);
+
+            foreach (var p in result)
+            {
+                Console.WriteLine($"{p.ProductName} - {p.UnitsInStock}");
+            }
+            */
+            #endregion
+
 
         }
     }
