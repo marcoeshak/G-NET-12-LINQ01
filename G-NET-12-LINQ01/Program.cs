@@ -119,6 +119,23 @@
             */
             #endregion
 
+            #region Q10
+            /*
+             
+            var result =
+            from c in Customers
+            from o in c.Orders
+            where o.OrderDate.Year >= 1997
+            select new
+            {
+              c.CustomerID,
+              o.OrderDate
+            };
+
+            */
+
+            #endregion
+
 
         }
     }
