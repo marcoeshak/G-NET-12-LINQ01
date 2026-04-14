@@ -52,6 +52,14 @@
             */
             #endregion
 
+            #region Q05
+            /*
+            var result = ProductList
+            .Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+
+            */
+            #endregion
+
 
 
         }
