@@ -45,6 +45,14 @@
             */
             #endregion
 
+            #region Q04
+            /*
+            var result = ProductList
+            .Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
+            */
+            #endregion
+
+
 
         }
     }
