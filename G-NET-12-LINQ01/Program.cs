@@ -33,6 +33,18 @@
 
             #endregion
 
+            #region Q03
+            /*
+            var result = ProductList
+            .OrderBy(p => p.UnitPrice);
+
+            foreach (var p in result)
+            {
+                Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
+            }
+            */
+            #endregion
+
 
         }
     }
