@@ -4,7 +4,23 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+
+            #region Q01
+            /*
+            var result = ProductList
+            .Where(p => p.Category == "Seafood");
+
+            foreach (var p in result)
+            {
+                Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
+            }
+
+            */
+
+            #endregion
+
+
         }
     }
 }
