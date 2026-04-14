@@ -150,6 +150,17 @@
             */
             #endregion
 
+            #region Q12
+            /*
+            string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            var result = Arr
+                .OrderBy(w => w.Length)
+                .ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
+
+            */
+            #endregion
+
 
         }
     }
